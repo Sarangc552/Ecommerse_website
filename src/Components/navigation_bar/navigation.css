@@ -1,0 +1,199 @@
+/* Custom Navbar Styles */
+.navbar-custom {
+    background-color: #07212e;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    border: none;
+  }
+  
+  .navbar-custom .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+  }
+  .navbar-custom .navbar-brand:hover{
+    color: #f7444e;
+  }
+  
+  .navbar-custom .navicon {
+    font-size: 2rem;
+    margin-right: 10px;
+  }
+  
+  .navbar-custom .navbar-toggler {
+    border-color: #ccc;
+    background-color: #ccc;
+  }
+  
+  .navbar-custom .navbar-nav .nav-link {
+    font-size: 1rem;
+    margin-left: 20px;
+    font-weight: 500;
+  }
+  
+  .nav-home{
+    text-decoration: none;
+    color: #ccc;
+  }
+  .nav-home:hover{
+    color: #f7444e;
+
+  }
+  .nav-about{
+    text-decoration: none;
+    color: #ccc;
+  }
+  .nav-about:hover{
+    color: #f7444e;
+  }
+  .nav-contact{
+    text-decoration: none;
+    color: #ccc;
+  }
+  .nav-contact:hover{
+      color: #f7444e;
+  }
+  
+  /* Search Box Styles */
+  .searchbox {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+  
+  .searchbox input {
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    width: 200px;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .searchbox input:focus {
+    outline: none;
+    border-color: #002c3e;
+  }
+  
+  .searchbox button {
+    background: #ccc;
+    border: none;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  .searchbox button:hover{
+    background-color: #f7444e;
+  }
+  
+  .search-icon {
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  /* User Section and Login Button */
+  .user-logo .user-icon {
+    font-size: 2rem;
+    color: #2c3e50;
+  }
+  
+  .btn-login {
+    padding: 8px 20px;
+    background-color: #002c3e;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: 15px;
+  }
+  
+  .btn-login:hover {
+    color: #f7444e;
+    background-color: transparent;
+    border: 1px solid #f7444e;
+  }
+  .btn-logout{
+    padding: 8px 20px;
+    background-color: #ccc;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    /* margin-left: 15px; */
+
+  }
+  .btn-logout:hover{
+    color: #f7444e;
+    background-color: transparent;
+    border: 1px solid #f7444e;
+  }
+  
+  /* Cart Section */
+  .cart-section {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .cart-icon {
+    font-size: 2rem;
+    color: #ccc;
+    cursor: pointer;
+    /* margin-right: 50px; */
+  }
+  .cart-icon:hover{
+    color: #f7444e;
+  }
+  
+  .cart-count {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    /* background-color: red; */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50%;
+    font-size: 1rem;
+  }
+  .userdetails{
+    padding: 8px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+  }
+  .login-btn{
+    margin: 0px 25px;
+    font-size: 28px;
+    cursor: pointer;
+    color: #ccc;
+  }
+  .logout-btn{
+    margin: 0px 25px;
+    font-size: 28px;
+    cursor: pointer;
+    color: #ccc;
+  }
+  .logout-btn:hover{
+    border-radius: 50%;
+    background-color: #002c3e;
+    color: #ccc;
+    padding: 5px;
+    font-size: 35px;
+  }
+  /* Responsive Design
+  @media (max-width: 992px) {
+    .searchbox {
+      display: none;
+    }
+  
+    .btn-login {
+      font-size: 0.9rem;
+      padding: 8px 15px;
+    }
+  } */

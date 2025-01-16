@@ -1,0 +1,57 @@
+.cartdetails{
+    border: 1px solid black;
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+    color:  #002c3e;
+    border: 0px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease-in-out;
+}
+.cartdetails:hover{
+    transform:scale(1.05);
+    cursor: pointer;
+
+}
+.add-btn{
+    border-radius: 50%;
+    border: 0px;
+    padding: 8px 16px;
+    background-color: rgb(155, 152, 152);
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+}
+.modal-cart{
+    margin-top: 200px;
+}
+.sub-btn{
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 0px;
+    padding: 8px 18px;
+    background-color: rgb(155, 152, 152);
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+}
+.remo-btn{
+    width: 150px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(155, 152, 152);
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: bold;
+}
+.textcontainer{
+    font-size: 15px;
+    font-weight: bold;
+}
+.cart-head{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3.5rem;
+    font-family: 'Playfair Display', serif;
+}

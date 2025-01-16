@@ -1,0 +1,122 @@
+.footsection{
+    padding: 100px 0px;
+    background-color: #051922;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 0.1px;
+    line-height: 1.8;
+    border-bottom: 0.5px solid #fff;
+}
+.about-widget h2{
+    font-size: 24px;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.about-widget p{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 0.1px;
+}
+.gettouch-widget h2{
+    font-size: 24px;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 20px;
+    color: #fff;
+    
+
+}
+.gettouch-widget h6{
+    margin-bottom: 10px;
+    line-height: 1.8;
+}
+.pages-widget h2{
+    font-size: 24px;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 20px;
+    color: #fff;
+}
+.pages-widget h6{
+    margin-bottom: 10px;
+    line-height: 1.8;
+}
+.subscribe-widget h2{
+    font-size: 24px;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 20px;
+    color: #fff;
+}
+.subscribe-widget p{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 0.1px;
+}
+.subscribe-email{
+    padding: 5px 8px;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: #012738;
+}
+.subscribe-widget button{
+    padding: 5px 10px;
+    margin-left: 5px;
+    background-color: #012738;
+    border: none;
+}
+.subscribe-widget .icon{
+    font-size: 25px;
+    color: #F28123;
+    
+}
+.arrow{
+    color: #F28123;
+    margin-right: 8px;
+}
+
+
+.copy-writesection{
+    padding: 60px 0px;
+    background-color: #051922;
+}
+.copy-contentsection h5{
+    color: #fff;
+    opacity: 0.7;
+    padding: 16px 0;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    line-height: 1.8;
+
+}
+.icons{
+    font-size: 25px;
+    margin-left: 15px;
+    color: #fff;
+    
+    
+}
+.social-icon{
+    text-align: right;
+    
+}
+@media only screen and (max-width: 767px) {
+    .social-icon {
+        text-align: center;
+        margin-top: 30px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .copy-writesection h5 {
+        text-align: center;
+    }
+}

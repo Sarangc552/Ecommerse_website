@@ -1,0 +1,42 @@
+/* .imagecontainer{
+    border: 1px solid rgb(213, 208, 208);
+    margin: auto;
+} */
+.view-section{
+    padding: 130px;
+}
+.secondcontainer{
+    padding-top: 50px;
+    margin-top: 20px;
+
+}
+.textcontainer{
+    line-height: 40px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    
+}
+.cartbtns{
+    margin-top: 50px;
+}
+.warning-icon{
+    font-size: 20px;
+    color: red;
+    margin-right: 5px;
+}
+.ship-icon{
+    font-size: 20px;
+    color: rgb(122, 116, 203);
+    margin-right: 5px;
+}
+.return-icon{
+    font-size: 20px;
+    color: rgb(24, 23, 27);
+    margin-right: 5px;
+
+}
+.stock-icon{
+    font-size: 20px;
+    color: rgb(50, 113, 94);
+    margin-right: 5px;
+}

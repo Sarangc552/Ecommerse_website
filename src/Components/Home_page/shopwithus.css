@@ -1,0 +1,61 @@
+.shop-withus{
+    margin-top: 20px;
+  }
+  .shop-container{
+    justify-content: center;
+    gap: 30px;
+  
+  }
+  .header-shop{
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+  }
+  .delivery{
+    border: 1px solid black;
+    margin-bottom: 15px;
+    padding: 80px 30px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    background-color: #002c3e;
+    color: white;
+  }
+  .free-shiping{
+    border: 1px solid black;
+    margin-bottom: 15px;
+    padding: 80px 30px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    background-color: #002c3e;
+    color: white;
+  
+  }
+  .quality{
+    border: 1px solid black;
+    margin-bottom: 15px;
+    padding: 80px 30px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    background-color: #002c3e;
+    color: white;
+  
+  }
+  .delivery:hover, .free-shiping:hover, .quality:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
+    cursor: pointer
+  }
+  .delivery-icon{
+   font-size: 50px;
+   color: white;
+  }
+  .quality-icon{
+    font-size: 50px;
+    color: white;
+  }
